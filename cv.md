@@ -19,5 +19,5 @@ _Junior_
 **UE "MTEK"** / *Information technology software* / Technician - programmer
 **BNTU** / *Information systems and technologies* / Engineer - Programmer
 ***
-**English language:** A1
+**English language:** A2
 ***
