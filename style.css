@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Playwrite+VN:wght@100..400&family=Ribeye+Marrow&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main_navigation {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(115, 99, 155);
+}
+
+.site_navigation {
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1440px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    padding: 20px 10px;
+    display: block;
+    text-align: center;
+
+    color: #000000;
+    background-color: rgb(115, 99, 155);
+    border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: rgb(157, 146, 187);
+}
+
+body {
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #ffffff;
+    display: flex;
+    color: #000000;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Playwrite FR Moderne", sans-serif;
+    color: aqua;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+h2 {
+    font-family: "Playwrite FR Moderne", sans-serif;
+        color: aquamarine;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h3 {
+    font-family: Ribeye Marrow;
+    font-weight: 600;
+    color: #0616f5;
+    border-bottom: 1px #000 solid;
+    padding: 0px;
+    margin: 0px;
+}
+
+h4 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+
+.column {
+    padding: 16px;
+}
+
+.container {
+    width: 1024px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.columns-flex {
+    display: flex;
+}
+
+.left {
+    background-color: #94a3c9;
+    width: 40%;
+}
+
+.right {
+    background-color: #fcf801;
+    flex: 1;
+}
+
+.stats {
+    max-height: 150px;
+}
+
+.img-about {
+    display: flex;
+    align-items: center;
+}
+
+.img-about h3 {
+    flex: 1;
+}
+
+.img-about img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.myselfBlock {
+    padding-left: 28px;
+}
+
+header {
+    text-align: center;
+}
+
+.photo-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 320px;
+        height: 500px;
+    }
+    
+    section {
+        display: block;
+    }
+    
+    .imgcontact {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+        margin-right: 15px;
+        padding: 4px;
+    }
+    
+    footer {
+        border-radius: 0px 0px 25px 25px;
+    }
+    
+    .main_footer {
+        margin-top: px;
+    }
+    
+    .git {
+        width: 32px;
+    }
+    
+    .main_footer {
+        color: #fff;
+        background-color: rgb(115, 99, 155);
+    }
+    
+    .footer_wrap {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .footer_button {
+        text-align: center;
+        vertical-align: middle;
+    
+        color: #fff;
+        background-color: rgb(115, 99, 155);
+        border: none;
+}
