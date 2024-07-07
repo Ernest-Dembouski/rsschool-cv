@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://Ernest-Dembouski.github.io/rsschool-cv/cv
